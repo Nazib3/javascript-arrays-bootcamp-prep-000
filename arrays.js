@@ -12,8 +12,9 @@ function addElementToEndOfArray(array, element){
     var myarrays = [...array, element]
     return myarrays;
 }
-function destructivelyAddElementToEndOfArray(array, element){
-
+function destructivelyAddElementToEndOfArray(arrays, element){
+    arrays.push(element);
+    return arrays;
 }
 function accessElementInArray(array, index){
 
